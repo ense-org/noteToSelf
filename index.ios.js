@@ -15,7 +15,7 @@ class noteToSelf extends Component {
             onRelease={() => {}}
             onCancel={() => {}}
             onDisabledPress={() => {}}
-            width={30}
+            width={60}
           />
         </View>
      
