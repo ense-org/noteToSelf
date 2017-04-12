@@ -60,7 +60,7 @@ constructor(props) {
 	this.modalY = new Animated.Value(0)
 
 
-	this.modalY.addListener((v) => console.log(v))
+	//this.modalY.addListener((v) => console.log(v))
 
 	this.ensePressPan = new Animated.ValueXY({x: WIDTH, y: HEIGHT})
 	this.iconLockPosition = new Animated.ValueXY({x: WIDTH, y: HEIGHT})
