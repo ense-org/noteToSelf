@@ -12,6 +12,7 @@
     "react": "16.0.0-alpha.6",
     "react-motion": "^0.4.7",
     "react-native": "^0.43.3",
+    "react-native-audio": "^3.2.2",
     "react-native-device-info": "^0.10.2",
     "react-native-linear-gradient": "^2.0.0",
     "react-native-svg": "^5.1.7",
