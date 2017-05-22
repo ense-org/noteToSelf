@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+  import React, { Component } from 'react'
 import {
   AppRegistry,
   StyleSheet,
@@ -18,16 +18,16 @@ class noteToSelf extends Component {
       recording: false,
       stoppedRecording: false,
       finished: false,
-      //JK hack to get seperate uadio files
+      //JK hack to get seperate audio files
       //audioPath: AudioUtils.DocumentDirectoryPath + '/test.aac',
-      //JK hack to get seperate uadio files
+      //JK hack to get seperate audio files
       hasPermission: undefined,
     };
 
     prepareRecordingPath(){
-      //JK hack to get seperate uadio files
+      //JK hack to get seperate audio files
       const audioPath = AudioUtils.DocumentDirectoryPath + '/' + Math.floor((Math.random() * 1000) + 1) + 'test.aac'
-      //JK hack to get seperate uadio files
+      //JK hack to get seperate audio files
       AudioRecorder.prepareRecordingAtPath(audioPath, {
         SampleRate: 22050,
         Channels: 1,
