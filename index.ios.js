@@ -15,35 +15,31 @@ import {AudioRecorder, AudioUtils} from 'react-native-audio'
 import uuid from 'react-native-uuid'
 import { enseFileUpload, tagEnseWithHandle } from './components/enseFileUpload'
 
+var STORAGE_KEY = 'storedRecordings'
+
 class noteToSelf extends Component {
   state = {
       currentTime: 0.0,
       recording: false,
       stoppedRecording: false,
       finished: false,
-      //JK hack to get seperate audio files
-      //audioPath: AudioUtils.DocumentDirectoryPath + '/test.aac',
-      //JK hack to get seperate audio files
       hasPermission: undefined,
-      messages: []
+      storedRecordings: []
     };
 
     async _loadInitialState() {
+
       try {
         var value = await AsyncStorage.getItem(STORAGE_KEY);
         if (value !== null){
-          this.setState({selectedValue: value});
-          this._appendMessage('Recovered selection from disk: ' + value);
+          //this.setState({selectedValue: value});
+          console.log('Recovered selection from disk: ' + value);
         } else {
-          this._appendMessage('Initialized with no selection on disk.');
+          console.log('Initialized with no selection on disk.');
         }
       } catch (error) {
-        this._appendMessage('AsyncStorage error: ' + error.message);
+        console.log('AsyncStorage error: ' + error.message);
       }
-    };
-
-    _appendMessage (message) {
-      this.setState({messages: this.state.messages.concat(message)});
     };
 
     prepareRecordingPath(){
@@ -83,6 +79,10 @@ class noteToSelf extends Component {
           }
         };
       });
+    }
+
+    componentDidUpdate() {
+      //console.log(this.state)
     }
 
     _checkPermission() {
@@ -193,14 +193,22 @@ class noteToSelf extends Component {
     }
 
     _addToAsyncStorage(filePath) {
-      var newRecording = uuid.v1()
+
+      const UUID = uuid.v1()
+      const storedRecordings = this.state.storedRecordings
+
+      var newRecording = `recording_${UUID}`
       var newRecording = {
-         filePath: filePath
+          UUID: UUID,
+          filePath: filePath
       };
-      AsyncStorage.setItem('newRecording', JSON.stringify(newRecording), () => {
-        AsyncStorage.mergeItem('newRecording', JSON.stringify(newRecording), () => {
-          AsyncStorage.getItem('newRecording', (err, result) => {
-            console.log(result);
+
+      AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(newRecording), () => {
+        AsyncStorage.mergeItem(STORAGE_KEY, JSON.stringify(newRecording), () => {
+          AsyncStorage.getItem(STORAGE_KEY, (err, result) => {
+            this.setState({
+                storedRecordings: this.state.storedRecordings.concat([JSON.parse(result)])
+            });
           });
         });
       });
@@ -210,7 +218,7 @@ class noteToSelf extends Component {
       this.setState({ finished: didSucceed });
       //save to async storage here
       this._addToAsyncStorage(filePath)
-      console.log(`Finished recording of duration ${this.state.currentTime} seconds at path: ${filePath}`);
+      //console.log(`Finished recording of duration ${this.state.currentTime} seconds at path: ${filePath}`);
     }
 
   render() {
