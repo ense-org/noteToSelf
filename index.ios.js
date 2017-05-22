@@ -1,6 +1,7 @@
   import React, { Component } from 'react'
 import {
   AppRegistry,
+  AsyncStorage,
   StyleSheet,
   Text,
   View,
@@ -11,6 +12,7 @@ import {
 import Push2Talk from './components/push2Talk'
 import Sound from 'react-native-sound'
 import {AudioRecorder, AudioUtils} from 'react-native-audio'
+import uuid from 'react-native-uuid'
 import { enseFileUpload, tagEnseWithHandle } from './components/enseFileUpload'
 
 class noteToSelf extends Component {
@@ -23,11 +25,30 @@ class noteToSelf extends Component {
       //audioPath: AudioUtils.DocumentDirectoryPath + '/test.aac',
       //JK hack to get seperate audio files
       hasPermission: undefined,
+      messages: []
+    };
+
+    async _loadInitialState() {
+      try {
+        var value = await AsyncStorage.getItem(STORAGE_KEY);
+        if (value !== null){
+          this.setState({selectedValue: value});
+          this._appendMessage('Recovered selection from disk: ' + value);
+        } else {
+          this._appendMessage('Initialized with no selection on disk.');
+        }
+      } catch (error) {
+        this._appendMessage('AsyncStorage error: ' + error.message);
+      }
+    };
+
+    _appendMessage (message) {
+      this.setState({messages: this.state.messages.concat(message)});
     };
 
     prepareRecordingPath(){
       //JK hack to get seperate audio files
-      const audioPath = AudioUtils.DocumentDirectoryPath + '/' + Math.floor((Math.random() * 1000) + 1) + 'test.aac'
+      const audioPath = AudioUtils.DocumentDirectoryPath + '/' + uuid.v1() + 'test.aac'
       //JK hack to get seperate audio files
       AudioRecorder.prepareRecordingAtPath(audioPath, {
         SampleRate: 22050,
@@ -39,13 +60,14 @@ class noteToSelf extends Component {
     }
 
     componentDidMount() {
+      this._loadInitialState().done();
       this._checkPermission().then((hasPermission) => {
         this.setState({ hasPermission });
 
         if (!hasPermission) return;
 
         //initliaze file upload
-        enseFileUpload.init();
+        //enseFileUpload.init();
 
         //do things for recording
         this.prepareRecordingPath(this.state.audioPath);
@@ -170,9 +192,24 @@ class noteToSelf extends Component {
       }
     }
 
+    _addToAsyncStorage(filePath) {
+      var newRecording = uuid.v1()
+      var newRecording = {
+         filePath: filePath
+      };
+      AsyncStorage.setItem('newRecording', JSON.stringify(newRecording), () => {
+        AsyncStorage.mergeItem('newRecording', JSON.stringify(newRecording), () => {
+          AsyncStorage.getItem('newRecording', (err, result) => {
+            console.log(result);
+          });
+        });
+      });
+    }
+
     _finishRecording(didSucceed, filePath) {
       this.setState({ finished: didSucceed });
       //save to async storage here
+      this._addToAsyncStorage(filePath)
       console.log(`Finished recording of duration ${this.state.currentTime} seconds at path: ${filePath}`);
     }
 
