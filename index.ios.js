@@ -9,8 +9,9 @@ import {
   PermissionsAndroid,
 } from 'react-native'
 import Push2Talk from './components/push2Talk'
-import Sound from 'react-native-sound';
-import {AudioRecorder, AudioUtils} from 'react-native-audio';
+import Sound from 'react-native-sound'
+import {AudioRecorder, AudioUtils} from 'react-native-audio'
+import { enseFileUpload, tagEnseWithHandle } from './components/enseFileUpload'
 
 class noteToSelf extends Component {
   state = {
@@ -43,6 +44,10 @@ class noteToSelf extends Component {
 
         if (!hasPermission) return;
 
+        //initliaze file upload
+        enseFileUpload.init();
+
+        //do things for recording
         this.prepareRecordingPath(this.state.audioPath);
 
         AudioRecorder.onProgress = (data) => {
@@ -167,6 +172,7 @@ class noteToSelf extends Component {
 
     _finishRecording(didSucceed, filePath) {
       this.setState({ finished: didSucceed });
+      //save to async storage here
       console.log(`Finished recording of duration ${this.state.currentTime} seconds at path: ${filePath}`);
     }
 

@@ -5,7 +5,7 @@ var enseFileUpload = new function () {
 
   var self = this
 
-  this.init () {
+  this.init = function () {
     if (typeof localStorage.deviceSecretKey === 'undefined') {
       localStorage.deviceSecretKey = randomStr(64)
       $.post({
@@ -91,7 +91,7 @@ var enseFileUpload = new function () {
     var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
     return randElem(colors) + randElem(colors) + randElem(colors)
   }
-}
+}()
 
 function tagEnseWithHandle (enseKey, enseHandle, userhandle, andThen) {
   $.get('https://api.ense.nyc/accounts/handle/' + userhandle, {}, function (handledata) {
