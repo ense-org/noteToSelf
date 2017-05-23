@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "lottie-react-native": "^1.1.1",
+    "native-base": "^2.1.4",
     "react": "16.0.0-alpha.6",
     "react-motion": "^0.4.7",
     "react-native": "^0.43.3",

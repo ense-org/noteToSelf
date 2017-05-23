@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/noteToSelf/react-native-device-info/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2e4336ffc2b7653868134d7f6f8b28523ef54645">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/noteToSelf-react-native-device-info-unspecified_4fd9e1f1911131b35fa317e3a5ad1be5b9659373.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_7492e0c0f75b894de860bd9adfdadbbc548129b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_1704b8d6f37bbb3f01cbfb473e87a04f065cb5c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_81fc2a434a2f85b015acf99761bcac3885eb7210.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.0_6af43cd53111915898e354c9c4c3610b493b568b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.0_0f4516210eb924d0aa8ec5511c1637a2f8446f52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_ba000a4d78dba97a718f78422f9c0f37aec821e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.0_9e6a3cd50ef9c1152fcc88f70a36b3ebd23bf0ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/noteToSelf/react-native-linear-gradient/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b1de8f75805268154da5e88bb6195760b9d8966f">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/noteToSelf-react-native-linear-gradient-unspecified_8d9add754e94775f6e01538d3e95f3cf8f522ac2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_41ebefba4ab79a670ac0f6b192e7d83d060adde4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.airbnb.android/lottie/2.0.0-beta3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="68c162440a8f6131116824d2f96de8e460f18369">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.airbnb.android-lottie-2.0.0-beta3_1e33ca446a7289b8c1a1555cd3305075119c85b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_7a63810647cda56bb403f558bffe0e690989fdb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/noteToSelf/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b319ff9834bbeb9be394687614eb86892699ea14">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/noteToSelf-react-native-vector-icons-unspecified_10cc65552db078baa6f2770a9cd2fc98fb880a3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_881aba41cb05b8fd3579567193a98c3e3ce505dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_f63fa1dfb4b00362e95dada22f1e4b5325dc4c21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_e50d1195e91b5e82fe5ad185e79ea549887fca15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/noteToSelf/react-native-sound/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="076a1cd3cf088829675a6ed72ca3f7e0f5a843c5">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/noteToSelf-react-native-sound-unspecified_a462adcef4e6be0d6c51dc9536154d5b2b25911f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.0_b0151883a4072cb84d75a1147229480dc4311128.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_c78b6551229d262954831ec7283b175b5b38d988.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.0_7b8f9ef06f0720506b322eb22ef671f00ecbfbe0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_d5d54f178050544be3c353c994cf3b91a64862a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-10.0.1_41592aeb6530ec71ef8e1266b032189b58c0b343.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-10.0.1_656ab74366f97ce49d1a5023ddea61d864070f97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.0_dc5181aaaa9bbb2e30af6ad141e4e18b60053a39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_5b20d3cfb8e0095848c8cfb2e3b787e0643e6a4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.3/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_73b29884d125ad5476d1dac7f0fc5a30532736c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_d97787c1c8b24e5109e6ead7af077345b2a4d35a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/noteToSelf/lottie-react-native/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f3b223882746db11d651a7e73abbe41ab220d637">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/noteToSelf-lottie-react-native-unspecified_efa42e18acf26f89fe2677f6fffcd63962af1158.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/noteToSelf/react-native-svg/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="396c0bb4339af1e04726540799574546959fab37">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/noteToSelf-react-native-svg-unspecified_060a6169e3e42bd091374b52f1ddb32d2dcaaabc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_4c2db3819c0a2aa95da3561c1635c264c74e49f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_33261a5a215db009ed462abe75ee41ec20a67583.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="28964a93b5eafbe660a5b51e5964d2e66aa45395">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.43.3_8ba83c50fe7d40625852b1a1ca3f5f480a06a77e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.0_4b9ba642b3f454c7b233fbbd77fb40ef11dd8e3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_6a184c74a1e70359628013ab703eb7dde6e05e2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_b6c9d8a89e76b4fbf3557002993ba1cd72e8c0f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/noteToSelf/react-native-audio/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="76521a4454423359c3dd08dce09989194fe46db0">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/noteToSelf-react-native-audio-unspecified_589d4a0f01e06091553671ab4d5f65ef67607bd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_cdb3f8aebe3ab0df10b199e4050a5dd80f76b80f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_6146115a0649f671ce697380bc31c51b0da2b699.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_14f9d7a75e9deaf41c3b6628add65cf95534718b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.0_dd98d5c6efc077a390db5fc27503181fa8ed0f4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.0_12157102ad4be2134f4eb5d0220319b1ca5445a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.0_163cc01c2660896aa992135cbd148709be312d08.jar" />
+    </item>
+
+</items>

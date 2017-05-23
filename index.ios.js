@@ -15,6 +15,7 @@ import Sound from 'react-native-sound'
 import {AudioRecorder, AudioUtils} from 'react-native-audio'
 import uuid from 'react-native-uuid'
 import { enseFileUpload, tagEnseWithHandle } from './components/enseFileUpload'
+//import { Container, Content, List, ListItem, Text } from 'native-base';
 
 var STORAGE_KEY = 'storedRecordings'
 

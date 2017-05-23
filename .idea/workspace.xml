@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d6c1348-e069-48e4-a3a5-a8d620674d75" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/generated/source/r/release/android/support/compat/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/generated/source/r/release/android/support/coreui/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/generated/source/r/release/android/support/coreutils/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/generated/source/r/release/android/support/fragment/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/generated/source/r/release/android/support/graphics/drawable/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/generated/source/r/release/android/support/graphics/drawable/animated/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/generated/source/r/release/android/support/mediacompat/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/generated/source/r/release/android/support/v4/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/classes/release/android/support/compat/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/classes/release/android/support/coreui/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/classes/release/android/support/coreutils/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/classes/release/android/support/fragment/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/classes/release/android/support/graphics/drawable/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/classes/release/android/support/graphics/drawable/animated/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/classes/release/android/support/mediacompat/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/classes/release/android/support/v4/R.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/BVLinearGradient.build/Debug-iphonesimulator/BVLinearGradient.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/BVLinearGradient.build/Debug-iphonesimulator/BVLinearGradient.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/Lottie.build/Debug-iphonesimulator/LottieLibraryIOS.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/Lottie.build/Debug-iphonesimulator/LottieLibraryIOS.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/LottieReactNative.build/Debug-iphonesimulator/LottieReactNative.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/LottieReactNative.build/Debug-iphonesimulator/LottieReactNative.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTActionSheet.build/Debug-iphonesimulator/RCTActionSheet.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTActionSheet.build/Debug-iphonesimulator/RCTActionSheet.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTAnimation.build/Debug-iphonesimulator/RCTAnimation.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTAnimation.build/Debug-iphonesimulator/RCTAnimation.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTGeolocation.build/Debug-iphonesimulator/RCTGeolocation.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTGeolocation.build/Debug-iphonesimulator/RCTGeolocation.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTLinking.build/Debug-iphonesimulator/RCTLinking.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTLinking.build/Debug-iphonesimulator/RCTLinking.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTSettings.build/Debug-iphonesimulator/RCTSettings.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTSettings.build/Debug-iphonesimulator/RCTSettings.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTText.build/Debug-iphonesimulator/RCTText.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTText.build/Debug-iphonesimulator/RCTText.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTVibration.build/Debug-iphonesimulator/RCTVibration.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTVibration.build/Debug-iphonesimulator/RCTVibration.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RNAudio.build/Debug-iphonesimulator/RNAudio.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RNAudio.build/Debug-iphonesimulator/RNAudio.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RNDeviceInfo.build/Debug-iphonesimulator/RNDeviceInfo.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RNDeviceInfo.build/Debug-iphonesimulator/RNDeviceInfo.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RNSVG.build/Debug-iphonesimulator/RNSVG.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RNSVG.build/Debug-iphonesimulator/RNSVG.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RNSound.build/Debug-iphonesimulator/RNSound.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RNSound.build/Debug-iphonesimulator/RNSound.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RNVectorIcons.build/Debug-iphonesimulator/RNVectorIcons.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RNVectorIcons.build/Debug-iphonesimulator/RNVectorIcons.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/cxxreact.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/cxxreact.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/jschelpers.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/jschelpers.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/yoga.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/yoga.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/noteToSelf.build/Debug-iphonesimulator/noteToSelf.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/noteToSelf.build/Debug-iphonesimulator/noteToSelf.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/noteToSelf.build/Debug-iphonesimulator/noteToSelfTests.build/Objects-normal/x86_64/noteToSelfTests_dependency_info.dat" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/noteToSelf.build/Debug-iphonesimulator/noteToSelfTests.build/Objects-normal/x86_64/noteToSelfTests_dependency_info.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/noteToSelf.build/Debug-iphonesimulator/noteToSelfTests.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/noteToSelf.build/Debug-iphonesimulator/noteToSelfTests.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/noteToSelf.app/Info.plist" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/noteToSelf.app/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/noteToSelf.app/Octicons.ttf" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/noteToSelf.app/Octicons.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/noteToSelf.app/SimpleLineIcons.ttf" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/noteToSelf.app/SimpleLineIcons.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/noteToSelf.app/noteToSelf" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/noteToSelf.app/noteToSelf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/bundles/release/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/classes/release/com/airbnb/android/react/lottie/LottieAnimationViewManager.class" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/classes/release/com/airbnb/android/react/lottie/LottieAnimationViewManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build.gradle" afterPath="$PROJECT_DIR$/android/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.ios.js" afterPath="$PROJECT_DIR$/index.ios.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/noteToSelf.app/_CodeSignature/CodeResources" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/noteToSelf.app/_CodeSignature/CodeResources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/info.plist" afterPath="$PROJECT_DIR$/ios/build/info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/noteToSelf.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ios/noteToSelf.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/noteToSelf/Info.plist" afterPath="$PROJECT_DIR$/ios/noteToSelf/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/generated/source/r/release/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/generated/source/r/release/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/generated/source/r/release/com/airbnb/lottie/R.java" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/generated/source/r/release/com/airbnb/lottie/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-af.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-af.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-am.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-am.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ar.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ar.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-az-rAZ.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-az-rAZ.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-b+sr+Latn.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-b+sr+Latn.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-be-rBY.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-be-rBY.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-bg.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-bg.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-bn-rBD.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-bn-rBD.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-bs-rBA.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-bs-rBA.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ca.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ca.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-cs.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-cs.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-da.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-da.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-de.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-de.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-el.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-el.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-en-rAU.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-en-rAU.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-en-rGB.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-en-rIN.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-en-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-es-rUS.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-es.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-es.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-et-rEE.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-et-rEE.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-eu-rES.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-eu-rES.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-fa.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-fa.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-fi.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-fi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-fr-rCA.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-fr.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-fr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-gl-rES.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-gl-rES.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-gu-rIN.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-gu-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-h720dp-v13.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-h720dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-hdpi-v4.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-hi.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-hi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-hr.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-hr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-hu.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-hu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-hy-rAM.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-hy-rAM.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-in.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-in.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-is-rIS.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-is-rIS.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-it.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-it.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-iw.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-iw.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ja.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ja.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ka-rGE.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ka-rGE.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-kk-rKZ.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-kk-rKZ.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-km-rKH.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-km-rKH.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-kn-rIN.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-kn-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ko.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ko.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ky-rKG.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ky-rKG.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-land.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-land.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-large-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ldltr-v21.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ldltr-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-lo-rLA.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-lo-rLA.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-lt.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-lt.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-lv.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-lv.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-mk-rMK.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-mk-rMK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ml-rIN.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ml-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-mn-rMN.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-mn-rMN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-mr-rIN.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-mr-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ms-rMY.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ms-rMY.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-my-rMM.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-my-rMM.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-nb.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-nb.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ne-rNP.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ne-rNP.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-night-v8.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-night-v8.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-nl.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-nl.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-pa-rIN.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-pa-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-pl.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-pl.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-port.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-port.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-pt-rBR.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-pt-rPT.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-pt.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-pt.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ro.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ro.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ru.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ru.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-si-rLK.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-si-rLK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-sk.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-sk.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-sl.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-sl.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-sq-rAL.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-sq-rAL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-sr.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-sr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-sv.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-sv.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-sw.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-sw.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-sw600dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ta-rIN.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ta-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-te-rIN.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-te-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-th.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-th.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-tl.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-tl.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-tr.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-tr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-uk.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-uk.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ur-rPK.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-ur-rPK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-uz-rUZ.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-uz-rUZ.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v11.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v11.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v12.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v12.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v13.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v14.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v14.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v16.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v16.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v17.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v17.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v18.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v18.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v21.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v22.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v22.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v23.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v23.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v24.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v24.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v25.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-v25.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-vi.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-vi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-xlarge-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-zh-rCN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-zh-rHK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-zh-rTW.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-zu.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values-zu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/anim.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/anim.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/color-v11.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/color-v11.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/color-v23.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/color-v23.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/color.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/color.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-ldrtl-hdpi-v17.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-ldrtl-hdpi-v17.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-ldrtl-mdpi-v17.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-ldrtl-mdpi-v17.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-ldrtl-xhdpi-v17.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-ldrtl-xhdpi-v17.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-ldrtl-xxhdpi-v17.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-ldrtl-xxhdpi-v17.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-ldrtl-xxxhdpi-v17.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-ldrtl-xxxhdpi-v17.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-v21.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-v23.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-v23.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable-xxxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/layout-v11.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/layout-v11.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/layout-v16.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/layout-v16.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/layout-v21.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/layout-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/layout.json" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/blame/res/release/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/bundles/release/R.txt" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/bundles/release/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/incremental/mergeReleaseAssets/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/incremental/mergeReleaseResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/incremental/mergeReleaseShaders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/node_modules/lottie-react-native/lib/android/build/intermediates/incremental/packageReleaseResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
+    <ignored path="noteToSelf.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="noteToSelf" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="116" />
+    <option name="y" value="43" />
+    <option name="width" value="1606" />
+    <option name="height" value="995" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="AndroidView" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="settings.editor.selected.configurable" value="gradle.experimental" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.31839082" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="AppEngineRunConfiguration" factoryName="App Engine DevAppServer">
+      <module name="" />
+      <setting name="serverAddress" value="" />
+      <setting name="sdkPath" value="" />
+      <setting name="serverPort" value="" />
+      <setting name="vmArgs" value="" />
+      <setting name="warPath" value="" />
+      <setting name="sync" value="false" />
+      <setting name="disableUpdateCheck" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d6c1348-e069-48e4-a3a5-a8d620674d75" name="Default" comment="" />
+      <created>1495572324990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1495572324990</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="116" y="43" width="1606" height="995" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24984227" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 25 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31839082" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>noteToSelf</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31839082" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
