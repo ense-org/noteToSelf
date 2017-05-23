@@ -18,6 +18,10 @@ import { enseFileUpload, tagEnseWithHandle } from './components/enseFileUpload'
 
 var STORAGE_KEY = 'storedRecordings'
 
+const dataSource = new ListView.DataSource({
+    rowHasChanged: (r1, r2) => r1.id !== r2.id
+});
+
 class noteToSelf extends Component {
   state = {
       currentTime: 0.0,
@@ -34,6 +38,7 @@ class noteToSelf extends Component {
         var value = await AsyncStorage.getItem(STORAGE_KEY);
 
         if (value !== null){
+          console.log(value)
           this.setState({storedRecordings: JSON.parse(value)});
           console.log('Recovered selection from disk: ' + JSON.parse(value));
         } else {
@@ -84,7 +89,7 @@ class noteToSelf extends Component {
     }
 
     componentDidUpdate() {
-      console.log(this.state.storedRecordings)
+      //console.log(this.state.storedRecordings)
     }
 
     _checkPermission() {
@@ -194,13 +199,35 @@ class noteToSelf extends Component {
       }
     }
 
+    randomStr (length) {
+      var i
+      var charset = '0123456789'
+      var randstr = ''
+      for (i = 0; i < length; i++) {
+        randstr = randstr + charset[Math.floor(Math.random() * charset.length)]
+      }
+      return randstr
+    }
+
+   randElem (arr) {
+      return arr[Math.floor(Math.random() * arr.length)]
+    }
+
+
+    generateColorCode () {
+      var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+      return this.randElem(colors)
+    }
+
     _addToAsyncStorage(filePath) {
       const UUID = uuid.v1()
+      const recordingTitle = `#${this.randomStr(4)} ${this.generateColorCode()} `
 
-      var newRecording = {
-          UUID: UUID,
-          filePath: filePath
-      };
+      var newRecording = [
+        recordingTitle: recordingTitle,
+        UUID: UUID,
+        filePath: filePath
+      ];
 
       var newRecordingArray = this.state.storedRecordings.slice()
       newRecordingArray.push(newRecording)
@@ -221,10 +248,60 @@ class noteToSelf extends Component {
     }
 
   render() {
+
+    const styles = StyleSheet.create({
+      headerContainer: {
+        flex: 1,
+        padding: 18,
+        justifyContent: 'center',
+        backgroundColor: '#EAEAEA',
+      },
+      headerText: {
+        fontSize: 13,
+      },
+      rowContainer: {
+        flex: 1,
+        padding: 12,
+        flexDirection: 'row',
+        alignItems: 'center',
+      },
+      rowText: {
+        marginLeft: 12,
+        fontSize: 16,
+      },
+      separator: {
+        flex: 1,
+        height: StyleSheet.hairlineWidth,
+        backgroundColor: '#8E8E8E',
+      }
+    })
+
+    const SectionHeader = () => (
+      <View style={styles.headerContainer}>
+        <Text style={styles.headerText}>note to self</Text>
+      </View>
+    )
+
+
+    const Row = (props) => (
+      <View style={styles.separator}></View>
+    )
+
+    const Seperator = () => (
+      <View style={styles.separator}></View>
+    )
+
+
     return (
      
       <View style={{
         flex: 1, justifyContent: 'flex-end', alignItems: 'center'}}>
+        <ListView
+          dataSource={dataSource.cloneWithRows(this.state.storedRecordings)}
+          renderRow={(data) => <View style = {styles.rowContainer}><Text style = {styles.rowText}>{data[0]}</Text></View>}
+          renderHeader={() => <SectionHeader />}
+          renderSeparator={() => <Seperator />}
+        />
         <Push2Talk 
             disabled={false}
             onPush={() => {this._record(), this.state.recording }}
