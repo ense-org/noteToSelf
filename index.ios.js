@@ -32,9 +32,10 @@ class noteToSelf extends Component {
 
       try {
         var value = await AsyncStorage.getItem(STORAGE_KEY);
+
         if (value !== null){
-          this.setState({storedRecordings: value});
-          console.log('Recovered selection from disk: ' + value);
+          this.setState({storedRecordings: JSON.parse(value)});
+          console.log('Recovered selection from disk: ' + JSON.parse(value));
         } else {
           console.log('Initialized with no selection on disk.');
         }
@@ -194,25 +195,22 @@ class noteToSelf extends Component {
     }
 
     _addToAsyncStorage(filePath) {
-
       const UUID = uuid.v1()
-      const storedRecordings = this.state.storedRecordings
 
-      var newRecording = `recording_${UUID}`
       var newRecording = {
           UUID: UUID,
           filePath: filePath
       };
 
-      AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(newRecording), () => {
-        AsyncStorage.mergeItem(STORAGE_KEY, JSON.stringify(newRecording), () => {
-          AsyncStorage.getItem(STORAGE_KEY, (err, result) => {
-            this.setState({
-                storedRecordings: this.state.storedRecordings.concat([JSON.parse(result)])
-            });
-          });
-        });
-      });
+      var newRecordingArray = this.state.storedRecordings.slice()
+      newRecordingArray.push(newRecording)
+
+      AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(newRecordingArray), () => {
+        this.setState({ 
+          storedRecordings: newRecordingArray
+        })
+      });      
+
     }
 
     _finishRecording(didSucceed, filePath) {
