@@ -2,6 +2,7 @@
 import {
   AppRegistry,
   AsyncStorage,
+  ListView,
   StyleSheet,
   Text,
   View,
@@ -32,7 +33,7 @@ class noteToSelf extends Component {
       try {
         var value = await AsyncStorage.getItem(STORAGE_KEY);
         if (value !== null){
-          //this.setState({selectedValue: value});
+          this.setState({storedRecordings: value});
           console.log('Recovered selection from disk: ' + value);
         } else {
           console.log('Initialized with no selection on disk.');
@@ -82,7 +83,7 @@ class noteToSelf extends Component {
     }
 
     componentDidUpdate() {
-      //console.log(this.state)
+      console.log(this.state.storedRecordings)
     }
 
     _checkPermission() {
