@@ -3,6 +3,7 @@ README | note to self
 
 Setup:
 * `npm install`	
+* If npm installs with errors run `npm update -g` which updates all Global packages.
 
 ### iOS 
 Run the app by building it from Xcode or running:
