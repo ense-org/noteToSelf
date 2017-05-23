@@ -4,5 +4,13 @@ README | note to self
 Setup:
 * `npm install`	
 
+### iOS 
 Run the app by building it from Xcode or running:
 * `react-native run-ios`
+
+### Android
+Start the simlutar
+* `android avd`
+
+Run the app: 
+* `react-native run-android`
