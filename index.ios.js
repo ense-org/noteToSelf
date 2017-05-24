@@ -17,7 +17,7 @@ import Sound from 'react-native-sound'
 import {AudioRecorder, AudioUtils} from 'react-native-audio'
 import uuid from 'react-native-uuid'
 import { enseFileUpload, tagEnseWithHandle } from './components/enseFileUpload'
-
+import lodash from 'lodash'
 
 var STORAGE_KEY = 'storedRecordings'
 
@@ -29,6 +29,7 @@ class noteToSelf extends Component {
   state = {
       currentTime: 0.0,
       recording: false,
+      playState: 'stopped',
       stoppedRecording: false,
       finished: false,
       hasPermission: undefined,
@@ -52,9 +53,11 @@ class noteToSelf extends Component {
     };
 
     prepareRecordingPath(){
-      //JK hack to get seperate audio files
+
       const audioPath = AudioUtils.DocumentDirectoryPath + '/' + uuid.v1() + 'test.aac'
-      //JK hack to get seperate audio files
+
+      console.log(audioPath)
+
       AudioRecorder.prepareRecordingAtPath(audioPath, {
         SampleRate: 22050,
         Channels: 1,
@@ -73,9 +76,6 @@ class noteToSelf extends Component {
 
         //initliaze file upload
         //enseFileUpload.init();
-
-        //do things for recording
-        this.prepareRecordingPath(this.state.audioPath);
 
         AudioRecorder.onProgress = (data) => {
           this.setState({currentTime: Math.floor(data.currentTime)});
@@ -151,15 +151,22 @@ class noteToSelf extends Component {
       }
     }
 
-    async _play() {
+    async _play(filepath) {
+
+      var filepath = filepath.replace('file://', '')
+
       if (this.state.recording) {
         await this._stop();
       }
 
+      this.setState({ 
+        playState: 'playing'
+      })
+
       // These timeouts are a hacky workaround for some issues with react-native-sound.
       // See https://github.com/zmxv/react-native-sound/issues/89.
       setTimeout(() => {
-        var sound = new Sound(this.state.audioPath, '', (error) => {
+        var sound = new Sound(filepath, '', (error) => {
           if (error) {
             console.log('failed to load the sound', error);
           }
@@ -169,6 +176,9 @@ class noteToSelf extends Component {
           sound.play((success) => {
             if (success) {
               console.log('successfully finished playing');
+              this.setState({ 
+                playState: 'stopped'
+              })
             } else {
               console.log('playback failed due to audio decoding errors');
             }
@@ -189,7 +199,7 @@ class noteToSelf extends Component {
       }
 
       if(this.state.stoppedRecording){
-        this.prepareRecordingPath(this.state.audioPath);
+        this.prepareRecordingPath();
       }
 
       this.setState({recording: true});
@@ -205,7 +215,6 @@ class noteToSelf extends Component {
       this.setState({ finished: didSucceed });
       //save to async storage here
       this._saveRecording(filePath)
-      //console.log(`Finished recording of duration ${this.state.currentTime} seconds at path: ${filePath}`);
     }
 
     randomStr (length) {
@@ -255,35 +264,13 @@ class noteToSelf extends Component {
     }
     
     _deleteRecording(UUID) {
-      console.log(UUID)
-      console.log(this.state.storedRecordings)
+      const data = this.state.storedRecordings
+  
     }
 
-    _playRecording(filePath) {
-      console.log(filePath)
-
-      // Load the sound file 'whoosh.mp3' from the app bundle
-      // See notes below about preloading sounds within initialization code below.
-      var whoosh = new Sound(item[2], '', (error) => {
-        if (error) {
-          console.log('failed to load the sound', error);
-          return;
-        } 
-        // loaded successfully
-        console.log('duration in seconds: ' + whoosh.getDuration() + 'number of channels: ' + whoosh.getNumberOfChannels());
-      });
-
-      whoosh.play((success) => {
-        if (success) {
-          console.log('successfully finished playing');
-        } else {
-          console.log('playback failed due to audio decoding errors');
-        }
-      });
-
-
-    }
   render() {
+
+    const playState = this.state.playState  === 'playing' ? 'pause' : 'play'
 
     return (
      
@@ -293,13 +280,13 @@ class noteToSelf extends Component {
       </Header>
       <Content>
         <List>
-          <List dataArray={this.state.storedRecordings}
+          <List dataArray={this.state.storedRecordings.reverse()}
               renderRow={(item) =>
                   <ListItem>
                     <Text>{item[0]}</Text>
                     <Right>
                       <Icon name="trash" onPress={() => this._deleteRecording(item[1]) } />
-                      <Icon name="play" onPress={() => this._playRecording(item[2]) } />
+                      <Icon name={playState}  onPress={() => this._play(item[2]) } />
                     </Right>
                   </ListItem>
               }>
