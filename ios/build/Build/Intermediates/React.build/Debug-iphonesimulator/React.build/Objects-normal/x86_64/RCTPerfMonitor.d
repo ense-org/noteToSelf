@@ -10,7 +10,6 @@ dependencies: \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Modules/RCTDevSettings.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Profiler/RCTFPSGraph.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTJavaScriptExecutor.h \
-  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Executors/RCTJSCExecutor.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTRootView.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Modules/RCTUIManager.h \
@@ -20,6 +19,7 @@ dependencies: \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTBorderStyle.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTLog.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTUtils.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTPointerEvents.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \

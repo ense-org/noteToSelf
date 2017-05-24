@@ -15,6 +15,7 @@ dependencies: \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTEventDispatcher.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTKeyCommands.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTUtils.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTTouchHandler.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Modules/RCTUIManager.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTViewManager.h \
@@ -28,7 +29,6 @@ dependencies: \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/UIView+React.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTComponent.h \
-  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTUtils.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTView.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTRootContentView.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Profiler/RCTProfile.h

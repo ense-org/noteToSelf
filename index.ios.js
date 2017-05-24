@@ -1,33 +1,63 @@
-import React, { Component } from 'react'
+  import React, { Component } from 'react'
 import {
   AppRegistry,
+  AsyncStorage,
+  ListView,
   StyleSheet,
-  Text,
+  //Text,
   View,
   TouchableHighlight,
   Platform,
   PermissionsAndroid,
 } from 'react-native'
+import {  Container, Content, Header, Footer, Title, List, ListItem, Text,
+          Icon, Badge, Left, Body, Right, Switch  } from 'native-base'
 import Push2Talk from './components/push2Talk'
-import Sound from 'react-native-sound';
-import {AudioRecorder, AudioUtils} from 'react-native-audio';
+import Sound from 'react-native-sound'
+import {AudioRecorder, AudioUtils} from 'react-native-audio'
+import uuid from 'react-native-uuid'
+import { enseFileUpload, tagEnseWithHandle } from './components/enseFileUpload'
+import lodash from 'lodash'
+
+var STORAGE_KEY = 'storedRecordings'
+
+const dataSource = new ListView.DataSource({
+    rowHasChanged: (r1, r2) => r1.id !== r2.id
+});
 
 class noteToSelf extends Component {
   state = {
       currentTime: 0.0,
       recording: false,
+      playState: 'stopped',
       stoppedRecording: false,
       finished: false,
-      //JK hack to get seperate uadio files
-      //audioPath: AudioUtils.DocumentDirectoryPath + '/test.aac',
-      //JK hack to get seperate uadio files
       hasPermission: undefined,
+      storedRecordings: []
+    };
+
+    async _loadInitialState() {
+
+      try {
+        var value = await AsyncStorage.getItem(STORAGE_KEY);
+
+        if (value !== null){
+          this.setState({storedRecordings: JSON.parse(value)});
+          //console.log('Recovered selection from disk: ' + JSON.parse(value));
+        } else {
+          console.log('Initialized with no selection on disk.');
+        }
+      } catch (error) {
+        console.log('AsyncStorage error: ' + error.message);
+      }
     };
 
     prepareRecordingPath(){
-      //JK hack to get seperate uadio files
-      const audioPath = AudioUtils.DocumentDirectoryPath + '/' + Math.floor((Math.random() * 1000) + 1) + 'test.aac'
-      //JK hack to get seperate uadio files
+
+      const audioPath = AudioUtils.DocumentDirectoryPath + '/' + uuid.v1() + 'test.aac'
+
+      console.log(audioPath)
+
       AudioRecorder.prepareRecordingAtPath(audioPath, {
         SampleRate: 22050,
         Channels: 1,
@@ -38,12 +68,14 @@ class noteToSelf extends Component {
     }
 
     componentDidMount() {
+      this._loadInitialState().done();
       this._checkPermission().then((hasPermission) => {
         this.setState({ hasPermission });
 
         if (!hasPermission) return;
 
-        this.prepareRecordingPath(this.state.audioPath);
+        //initliaze file upload
+        //enseFileUpload.init();
 
         AudioRecorder.onProgress = (data) => {
           this.setState({currentTime: Math.floor(data.currentTime)});
@@ -56,6 +88,10 @@ class noteToSelf extends Component {
           }
         };
       });
+    }
+
+    componentDidUpdate() {
+      //console.log(this.state.storedRecordings)
     }
 
     _checkPermission() {
@@ -115,15 +151,22 @@ class noteToSelf extends Component {
       }
     }
 
-    async _play() {
+    async _play(filepath) {
+
+      var filepath = filepath.replace('file://', '')
+
       if (this.state.recording) {
         await this._stop();
       }
 
+      this.setState({ 
+        playState: 'playing'
+      })
+
       // These timeouts are a hacky workaround for some issues with react-native-sound.
       // See https://github.com/zmxv/react-native-sound/issues/89.
       setTimeout(() => {
-        var sound = new Sound(this.state.audioPath, '', (error) => {
+        var sound = new Sound(filepath, '', (error) => {
           if (error) {
             console.log('failed to load the sound', error);
           }
@@ -133,6 +176,9 @@ class noteToSelf extends Component {
           sound.play((success) => {
             if (success) {
               console.log('successfully finished playing');
+              this.setState({ 
+                playState: 'stopped'
+              })
             } else {
               console.log('playback failed due to audio decoding errors');
             }
@@ -153,7 +199,7 @@ class noteToSelf extends Component {
       }
 
       if(this.state.stoppedRecording){
-        this.prepareRecordingPath(this.state.audioPath);
+        this.prepareRecordingPath();
       }
 
       this.setState({recording: true});
@@ -167,15 +213,88 @@ class noteToSelf extends Component {
 
     _finishRecording(didSucceed, filePath) {
       this.setState({ finished: didSucceed });
-      console.log(`Finished recording of duration ${this.state.currentTime} seconds at path: ${filePath}`);
+      //save to async storage here
+      this._saveRecording(filePath)
+    }
+
+    randomStr (length) {
+      var i
+      var charset = '0123456789'
+      var randstr = ''
+      for (i = 0; i < length; i++) {
+        randstr = randstr + charset[Math.floor(Math.random() * charset.length)]
+      }
+      return randstr
+    }
+
+    randElem (arr) {
+      return arr[Math.floor(Math.random() * arr.length)]
+    }
+
+
+    generateColorCode () {
+      var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+      return this.randElem(colors)
+    }
+
+    _addToAsyncStorage(array) {
+      //we call this functoin whenever we manipulate
+      //the stored recordings array
+      AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(array), () => {
+        this.setState({ 
+          storedRecordings: array
+        })
+      });      
+
+    }
+
+    _saveRecording(filePath) {
+      const UUID = uuid.v1()
+      const recordingTitle = `#${this.randomStr(4)} ${this.generateColorCode()} `
+
+      var newRecording = [
+        recordingTitle: recordingTitle,
+        UUID: UUID,
+        filePath: filePath
+      ];
+
+      var newRecordingArray = this.state.storedRecordings.slice()
+      newRecordingArray.push(newRecording)
+      this._addToAsyncStorage(newRecordingArray) 
+    }
+    
+    _deleteRecording(UUID) {
+      const data = this.state.storedRecordings
+  
     }
 
   render() {
+
+    const playState = this.state.playState  === 'playing' ? 'pause' : 'play'
+
     return (
      
-      <View style={{
-        flex: 1, justifyContent: 'flex-end', alignItems: 'center'}}>
-        <Push2Talk 
+     <Container>
+      <Header>
+        <Title>Note To Self</Title>
+      </Header>
+      <Content>
+        <List>
+          <List dataArray={this.state.storedRecordings.reverse()}
+              renderRow={(item) =>
+                  <ListItem>
+                    <Text>{item[0]}</Text>
+                    <Right>
+                      <Icon name="trash" onPress={() => this._deleteRecording(item[1]) } />
+                      <Icon name={playState}  onPress={() => this._play(item[2]) } />
+                    </Right>
+                  </ListItem>
+              }>
+          </List>
+        </List>
+      </Content>
+        <Footer>
+          <Push2Talk 
             disabled={false}
             onPush={() => {this._record(), this.state.recording }}
             onRelease={() => {this._stop()}}
@@ -183,8 +302,8 @@ class noteToSelf extends Component {
             onDisabledPress={() => {}}
             width={60}
           />
-        </View>
-     
+        </Footer>
+    </Container>
     )
   }
 

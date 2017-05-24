@@ -11,6 +11,7 @@ dependencies: \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTInvalidating.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTLog.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTUtils.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTTabBarItem.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTComponent.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTConvert.h \
@@ -21,7 +22,6 @@ dependencies: \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTUtils.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTView.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTViewControllerProtocol.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTWrapperViewController.h \

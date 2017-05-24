@@ -16,10 +16,10 @@ dependencies: \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTFrameUpdate.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Modules/RCTDevSettings.h \
-  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Executors/RCTJSCErrorHandling.h \
-  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Profiler/RCTJSCProfiler.h \
+  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTJSCErrorHandling.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTUtils.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Profiler/RCTProfile.h \
-  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Profiler/RCTJSCProfiler.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Modules/RCTDevMenu.h

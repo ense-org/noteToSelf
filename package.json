@@ -8,15 +8,19 @@
     "postinstall": "react-native link"
   },
   "dependencies": {
+    "lodash": "^4.17.4",
     "lottie-react-native": "^1.1.1",
+    "native-base": "^2.1.4",
     "react": "16.0.0-alpha.6",
     "react-motion": "^0.4.7",
-    "react-native": "^0.43.3",
+    "react-native": "^0.44.0",
     "react-native-audio": "^3.2.2",
     "react-native-device-info": "^0.10.2",
     "react-native-linear-gradient": "^2.0.0",
+    "react-native-offline-utils": "^1.0.0",
     "react-native-sound": "^0.9.1",
     "react-native-svg": "^5.1.7",
+    "react-native-uuid": "^1.4.9",
     "react-native-vector-icons": "^4.0.1"
   },
   "devDependencies": {

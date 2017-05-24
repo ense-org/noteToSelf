@@ -1,5 +1,4 @@
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTRootContentView.o
-/Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTConvert+MapKit.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTStatusBarManager.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTSourceCode.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTJSCProfiler.o
@@ -13,7 +12,6 @@
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTSegmentedControl.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTRootView.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTExceptionsManager.o
-/Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTMapAnnotation.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTSamplingProfilerPackagerMethod.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTRootShadowView.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTModuleMethod.o
@@ -48,8 +46,8 @@
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTScrollView.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTReloadCommand.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTAccessibilityManager.o
-/Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTJSCErrorHandling.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTDevLoadingView.o
+/Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTJSCErrorHandling.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTTiming.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTAppState.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTJSCExecutor.o
@@ -69,14 +67,12 @@
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTView.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTPlatform.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTPackagerClientResponder.o
-/Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTMapOverlay.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTKeyboardObserver.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTI18nManager.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTConvert+CoreLocation.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTTabBarItemManager.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTKeyCommands.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTUtils.o
-/Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTMapManager.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTRefreshControl.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTWebView.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTBridge.o
@@ -95,7 +91,6 @@
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTTabBar.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTRedBox.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTModalHostViewController.o
-/Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTMap.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTNavItem.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTEventDispatcher.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTReloadPackagerMethod.o
@@ -106,3 +101,4 @@
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTConvert+Transform.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTComponentData.o
 /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTNavigatorManager.o
+/Users/jennykortina/Developer/noteToSelf/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTDeviceInfo.o

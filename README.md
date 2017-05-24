@@ -1,8 +1,8 @@
-README | note to self
+### README | note to self
 * React native app demoing Ense push 2 talk component
 
-Setup:
-* `npm install`	
+### Setup:
+* `npm install` 
 * If npm installs with errors run `npm update -g` which updates all Global packages.
 
 ### iOS 
