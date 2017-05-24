@@ -9,7 +9,7 @@ package com.facebook.drawee.backends.pipeline;
 public final class R {
 	public static final class attr {
 		public static final int actualImageScaleType = 0x7f0100b4;
-		public static final int actualImageUri = 0x7f0100ed;
+		public static final int actualImageUri = 0x7f0100e9;
 		public static final int backgroundImage = 0x7f0100b5;
 		public static final int fadeDuration = 0x7f0100a9;
 		public static final int failureImage = 0x7f0100af;
@@ -36,15 +36,15 @@ public final class R {
 		public static final int viewAspectRatio = 0x7f0100aa;
 	}
 	public static final class id {
-		public static final int center = 0x7f0c001c;
-		public static final int centerCrop = 0x7f0c001d;
-		public static final int centerInside = 0x7f0c001e;
-		public static final int fitCenter = 0x7f0c001f;
-		public static final int fitEnd = 0x7f0c0020;
-		public static final int fitStart = 0x7f0c0021;
-		public static final int fitXY = 0x7f0c0022;
-		public static final int focusCrop = 0x7f0c0023;
-		public static final int none = 0x7f0c0010;
+		public static final int center = 0x7f0c001b;
+		public static final int centerCrop = 0x7f0c001c;
+		public static final int centerInside = 0x7f0c001d;
+		public static final int fitCenter = 0x7f0c001e;
+		public static final int fitEnd = 0x7f0c001f;
+		public static final int fitStart = 0x7f0c0020;
+		public static final int fitXY = 0x7f0c0021;
+		public static final int focusCrop = 0x7f0c0022;
+		public static final int none = 0x7f0c000f;
 	}
 	public static final class styleable {
 		public static final int[] GenericDraweeHierarchy = { 0x7f0100a9, 0x7f0100aa, 0x7f0100ab, 0x7f0100ac, 0x7f0100ad, 0x7f0100ae, 0x7f0100af, 0x7f0100b0, 0x7f0100b1, 0x7f0100b2, 0x7f0100b3, 0x7f0100b4, 0x7f0100b5, 0x7f0100b6, 0x7f0100b7, 0x7f0100b8, 0x7f0100b9, 0x7f0100ba, 0x7f0100bb, 0x7f0100bc, 0x7f0100bd, 0x7f0100be, 0x7f0100bf, 0x7f0100c0, 0x7f0100c1 };
@@ -73,7 +73,7 @@ public final class R {
 		public static final int GenericDraweeHierarchy_roundingBorderPadding = 24;
 		public static final int GenericDraweeHierarchy_roundingBorderWidth = 22;
 		public static final int GenericDraweeHierarchy_viewAspectRatio = 1;
-		public static final int[] SimpleDraweeView = { 0x7f0100ed };
+		public static final int[] SimpleDraweeView = { 0x7f0100e9 };
 		public static final int SimpleDraweeView_actualImageUri = 0;
 	}
 }

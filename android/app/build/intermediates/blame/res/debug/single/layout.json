@@ -65,7 +65,7 @@
     },
     {
         "merged": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/res/merged/debug/layout/redbox_view.xml",
-        "source": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.3/res/layout/redbox_view.xml"
+        "source": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.0/res/layout/redbox_view.xml"
     },
     {
         "merged": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
@@ -73,7 +73,7 @@
     },
     {
         "merged": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/res/merged/debug/layout/redbox_item_frame.xml",
-        "source": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.3/res/layout/redbox_item_frame.xml"
+        "source": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.0/res/layout/redbox_item_frame.xml"
     },
     {
         "merged": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
@@ -113,7 +113,7 @@
     },
     {
         "merged": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/res/merged/debug/layout/fps_view.xml",
-        "source": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.3/res/layout/fps_view.xml"
+        "source": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.0/res/layout/fps_view.xml"
     },
     {
         "merged": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
@@ -133,7 +133,7 @@
     },
     {
         "merged": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/res/merged/debug/layout/redbox_item_title.xml",
-        "source": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.3/res/layout/redbox_item_title.xml"
+        "source": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.0/res/layout/redbox_item_title.xml"
     },
     {
         "merged": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
@@ -166,6 +166,10 @@
     {
         "merged": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
         "source": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/res/merged/debug/layout/dev_loading_view.xml",
+        "source": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.0/res/layout/dev_loading_view.xml"
     },
     {
         "merged": "/Users/jennykortina/Developer/noteToSelf/android/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
