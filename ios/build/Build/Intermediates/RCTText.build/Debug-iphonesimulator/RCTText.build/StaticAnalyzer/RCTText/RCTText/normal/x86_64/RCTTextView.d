@@ -11,6 +11,7 @@ dependencies: \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
@@ -22,9 +23,11 @@ dependencies: \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
-  /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
+  /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/Libraries/Text/RCTShadowText.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
-  /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/Libraries/Text/RCTText.h \
-  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/Libraries/Text/RCTTextSelection.h
+  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/Libraries/Text/RCTTextSelection.h \
+  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/Libraries/Text/RCTUITextView.h

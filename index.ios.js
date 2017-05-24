@@ -4,18 +4,20 @@ import {
   AsyncStorage,
   ListView,
   StyleSheet,
-  Text,
+  //Text,
   View,
   TouchableHighlight,
   Platform,
   PermissionsAndroid,
 } from 'react-native'
+import {  Container, Content, Header, Footer, Title, List, ListItem, Text,
+          Icon, Badge, Left, Body, Right, Switch  } from 'native-base'
 import Push2Talk from './components/push2Talk'
 import Sound from 'react-native-sound'
 import {AudioRecorder, AudioUtils} from 'react-native-audio'
 import uuid from 'react-native-uuid'
 import { enseFileUpload, tagEnseWithHandle } from './components/enseFileUpload'
-//import { Container, Content, List, ListItem, Text } from 'native-base';
+
 
 var STORAGE_KEY = 'storedRecordings'
 
@@ -39,9 +41,8 @@ class noteToSelf extends Component {
         var value = await AsyncStorage.getItem(STORAGE_KEY);
 
         if (value !== null){
-          console.log(value)
           this.setState({storedRecordings: JSON.parse(value)});
-          console.log('Recovered selection from disk: ' + JSON.parse(value));
+          //console.log('Recovered selection from disk: ' + JSON.parse(value));
         } else {
           console.log('Initialized with no selection on disk.');
         }
@@ -200,6 +201,13 @@ class noteToSelf extends Component {
       }
     }
 
+    _finishRecording(didSucceed, filePath) {
+      this.setState({ finished: didSucceed });
+      //save to async storage here
+      this._saveRecording(filePath)
+      //console.log(`Finished recording of duration ${this.state.currentTime} seconds at path: ${filePath}`);
+    }
+
     randomStr (length) {
       var i
       var charset = '0123456789'
@@ -210,7 +218,7 @@ class noteToSelf extends Component {
       return randstr
     }
 
-   randElem (arr) {
+    randElem (arr) {
       return arr[Math.floor(Math.random() * arr.length)]
     }
 
@@ -220,7 +228,18 @@ class noteToSelf extends Component {
       return this.randElem(colors)
     }
 
-    _addToAsyncStorage(filePath) {
+    _addToAsyncStorage(array) {
+      //we call this functoin whenever we manipulate
+      //the stored recordings array
+      AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(array), () => {
+        this.setState({ 
+          storedRecordings: array
+        })
+      });      
+
+    }
+
+    _saveRecording(filePath) {
       const UUID = uuid.v1()
       const recordingTitle = `#${this.randomStr(4)} ${this.generateColorCode()} `
 
@@ -232,78 +251,63 @@ class noteToSelf extends Component {
 
       var newRecordingArray = this.state.storedRecordings.slice()
       newRecordingArray.push(newRecording)
-
-      AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(newRecordingArray), () => {
-        this.setState({ 
-          storedRecordings: newRecordingArray
-        })
-      });      
-
+      this._addToAsyncStorage(newRecordingArray) 
+    }
+    
+    _deleteRecording(UUID) {
+      console.log(UUID)
+      console.log(this.state.storedRecordings)
     }
 
-    _finishRecording(didSucceed, filePath) {
-      this.setState({ finished: didSucceed });
-      //save to async storage here
-      this._addToAsyncStorage(filePath)
-      //console.log(`Finished recording of duration ${this.state.currentTime} seconds at path: ${filePath}`);
-    }
+    _playRecording(filePath) {
+      console.log(filePath)
 
+      // Load the sound file 'whoosh.mp3' from the app bundle
+      // See notes below about preloading sounds within initialization code below.
+      var whoosh = new Sound(item[2], '', (error) => {
+        if (error) {
+          console.log('failed to load the sound', error);
+          return;
+        } 
+        // loaded successfully
+        console.log('duration in seconds: ' + whoosh.getDuration() + 'number of channels: ' + whoosh.getNumberOfChannels());
+      });
+
+      whoosh.play((success) => {
+        if (success) {
+          console.log('successfully finished playing');
+        } else {
+          console.log('playback failed due to audio decoding errors');
+        }
+      });
+
+
+    }
   render() {
-
-    const styles = StyleSheet.create({
-      headerContainer: {
-        flex: 1,
-        padding: 18,
-        justifyContent: 'center',
-        backgroundColor: '#EAEAEA',
-      },
-      headerText: {
-        fontSize: 13,
-      },
-      rowContainer: {
-        flex: 1,
-        padding: 12,
-        flexDirection: 'row',
-        alignItems: 'center',
-      },
-      rowText: {
-        marginLeft: 12,
-        fontSize: 16,
-      },
-      separator: {
-        flex: 1,
-        height: StyleSheet.hairlineWidth,
-        backgroundColor: '#8E8E8E',
-      }
-    })
-
-    const SectionHeader = () => (
-      <View style={styles.headerContainer}>
-        <Text style={styles.headerText}>note to self</Text>
-      </View>
-    )
-
-
-    const Row = (props) => (
-      <View style={styles.separator}></View>
-    )
-
-    const Seperator = () => (
-      <View style={styles.separator}></View>
-    )
-
 
     return (
      
-      <View style={{
-        flex: 1, justifyContent: 'flex-end', alignItems: 'center'}}>
-        <ListView
-          dataSource={dataSource.cloneWithRows(this.state.storedRecordings)}
-          renderRow={(data) => <View style = {styles.rowContainer}><Text style = {styles.rowText}>{data[0]}</Text></View>}
-          renderHeader={() => <SectionHeader />}
-          renderSeparator={() => <Seperator />}
-        />
-        <Push2Talk 
+     <Container>
+      <Header>
+        <Title>Note To Self</Title>
+      </Header>
+      <Content>
+        <List>
+          <List dataArray={this.state.storedRecordings}
+              renderRow={(item) =>
+                  <ListItem>
+                    <Text>{item[0]}</Text>
+                    <Right>
+                      <Icon name="trash" onPress={() => this._deleteRecording(item[1]) } />
+                      <Icon name="play" onPress={() => this._playRecording(item[2]) } />
+                    </Right>
+                  </ListItem>
+              }>
+          </List>
+        </List>
+      </Content>
+        <Footer>
+          <Push2Talk 
             disabled={false}
             onPush={() => {this._record(), this.state.recording }}
             onRelease={() => {this._stop()}}
@@ -311,8 +315,8 @@ class noteToSelf extends Component {
             onDisabledPress={() => {}}
             width={60}
           />
-        </View>
-     
+        </Footer>
+    </Container>
     )
   }
 

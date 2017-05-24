@@ -19,6 +19,7 @@ dependencies: \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTAnimationType.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTLog.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTUtils.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
@@ -27,6 +28,5 @@ dependencies: \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTRootView.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTViewManager.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/UIView+React.h \
-  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTUtils.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/UIView+Private.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTRefreshControl.h

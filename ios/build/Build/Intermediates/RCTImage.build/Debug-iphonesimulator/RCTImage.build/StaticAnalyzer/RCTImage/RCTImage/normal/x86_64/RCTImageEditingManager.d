@@ -8,12 +8,12 @@ dependencies: \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/Libraries/Image/RCTImageLoader.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \

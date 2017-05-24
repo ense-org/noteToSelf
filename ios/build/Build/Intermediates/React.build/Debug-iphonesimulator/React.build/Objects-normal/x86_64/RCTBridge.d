@@ -13,6 +13,7 @@ dependencies: \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTBorderStyle.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTLog.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTUtils.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTPointerEvents.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
   /Users/jennykortina/Developer/noteToSelf/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
@@ -22,5 +23,4 @@ dependencies: \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTModuleData.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
   /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Profiler/RCTProfile.h \
-  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTReloadCommand.h \
-  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTUtils.h
+  /Users/jennykortina/Developer/noteToSelf/node_modules/react-native/React/Base/RCTReloadCommand.h
