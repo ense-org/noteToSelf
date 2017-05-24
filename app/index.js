@@ -18,7 +18,7 @@ import Sound from 'react-native-sound'
 import {AudioRecorder, AudioUtils} from 'react-native-audio'
 import uuid from 'react-native-uuid'
 import Push2Talk from '../components/push2Talk'
-import { enseFileUpload, tagEnseWithHandle } from '../components/enseFileUpload'
+import { enseFileUpload } from '../components/enseFileUpload'
 
 
 var STORAGE_KEY = 'storedRecordings'
@@ -36,7 +36,7 @@ class noteToSelf extends Component {
     };
 
     async _loadInitialState() {
-
+      enseFileUpload.init()
       try {
         var value = await AsyncStorage.getItem(STORAGE_KEY);
 
@@ -133,7 +133,6 @@ class noteToSelf extends Component {
 
     async _stop() {
 
-      console.log('stop')
       if (!this.state.recording) {
         console.warn('Can\'t stop, not recording!');
         return;
@@ -191,8 +190,6 @@ class noteToSelf extends Component {
 
     async _record() {
 
-      console.log("start")
-
       if (this.state.recording) {
         console.warn('Already recording!');
         return;
@@ -215,6 +212,12 @@ class noteToSelf extends Component {
         console.error(error);
       }
     }
+
+
+    async _upload() {
+      console.log("upload")
+    }
+
 
     _finishRecording(didSucceed, filePath) {
       this.setState({ finished: didSucceed });
@@ -269,8 +272,9 @@ class noteToSelf extends Component {
     }
     
     _deleteRecording(UUID) {
-      const data = this.state.storedRecordings
-  
+      const array = this.state.storedRecordings.slice()
+      var newRecordingArray = _.reject(array, sub => sub[1] === UUID)
+      this._addToAsyncStorage(newRecordingArray)
     }
 
     _renderRecorderButton() {
@@ -319,11 +323,16 @@ class noteToSelf extends Component {
         <List>
           <List dataArray={this.state.storedRecordings.reverse()}
               renderRow={(item) =>
-                  <ListItem>
-                    <Text>{item[0]}</Text>
-                    <Right>
+                  <ListItem icon>
+                    <Left>
                       <Icon name="trash" onPress={() => this._deleteRecording(item[1]) } />
                       <Icon name={playState}  onPress={() => this._play(item[2]) } />
+                    </Left>
+                    <Body>
+                      <Text>{item[0]}</Text>
+                    </Body>
+                    <Right>
+                      <Icon name="share" onPress={() => this._upload(item) } />
                     </Right>
                   </ListItem>
               }>
