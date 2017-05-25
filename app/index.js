@@ -18,7 +18,7 @@ import Sound from 'react-native-sound'
 import {AudioRecorder, AudioUtils} from 'react-native-audio'
 import uuid from 'react-native-uuid'
 import Push2Talk from '../components/push2Talk'
-import { enseFileUpload } from '../components/enseFileUpload'
+import { enseFileUpload } from './../libs/enseFileUpload'
 
 
 var STORAGE_KEY = 'storedRecordings'
@@ -53,7 +53,7 @@ class noteToSelf extends Component {
 
     prepareRecordingPath(){
 
-      const audioPath = AudioUtils.DocumentDirectoryPath + '/' + uuid.v1() + 'test.aac'
+      const audioPath = AudioUtils.DocumentDirectoryPath + '/' + uuid.v1() + '.aac'
 
       AudioRecorder.prepareRecordingAtPath(audioPath, {
         SampleRate: 22050,
@@ -258,13 +258,15 @@ class noteToSelf extends Component {
 
     _saveRecording(filePath) {
       const UUID = uuid.v1()
-      const recordingTitle = `#${this.randomStr(4)} ${this.generateColorCode()} `
+      const title = `#${this.randomStr(4)} ${this.generateColorCode()} `
+      const filename = UUID + '.aac'
 
-      var newRecording = [
-        recordingTitle: recordingTitle,
+      var newRecording = {
+        title: title,
+        filename: filename,
         UUID: UUID,
         filePath: filePath
-      ];
+      };
 
       var newRecordingArray = this.state.storedRecordings.slice()
       newRecordingArray.push(newRecording)
@@ -273,6 +275,8 @@ class noteToSelf extends Component {
     
     _deleteRecording(UUID) {
       const array = this.state.storedRecordings.slice()
+      //JK: need help from rob
+      console.log(this.state.storedRecordings)
       var newRecordingArray = _.reject(array, sub => sub[1] === UUID)
       this._addToAsyncStorage(newRecordingArray)
     }
@@ -325,11 +329,11 @@ class noteToSelf extends Component {
               renderRow={(item) =>
                   <ListItem icon>
                     <Left>
-                      <Icon name="trash" onPress={() => this._deleteRecording(item[1]) } />
-                      <Icon name={playState}  onPress={() => this._play(item[2]) } />
+                      <Icon name="trash" onPress={() => this._deleteRecording(item.UUID) } />
+                      <Icon name={playState}  onPress={() => this._play(item.filePath) } />
                     </Left>
                     <Body>
-                      <Text>{item[0]}</Text>
+                      <Text>{item.title}</Text>
                     </Body>
                     <Right>
                       <Icon name="share" onPress={() => this._upload(item) } />

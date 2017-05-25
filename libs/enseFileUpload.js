@@ -1,4 +1,4 @@
-import { EnseAPI } from '../components/enseAPI'
+import { EnseAPI } from '../libs/enseAPI'
 import { AsyncStorage } from 'react-native'
 
 //adapted/cleaned up from EnseWidget
