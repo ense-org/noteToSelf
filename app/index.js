@@ -11,8 +11,10 @@ import {
   Platform,
   PermissionsAndroid
 } from 'react-native'
-import {  Container, Content, Header, Footer, Title, List, ListItem, Text,
-          Icon, Badge, Left, Body, Right, Switch  } from 'native-base'
+import {  StyleProvider, Container, Content, Header, Footer, Title, List, 
+          ListItem, Text, Icon, Badge, Left, Body, Right, Switch  } from 'native-base'
+import getTheme from '../native-base-theme/components';  
+import customTheme from '../styles/customTheme';
 import lodash from 'lodash'
 import Sound from 'react-native-sound'
 import {AudioRecorder, AudioUtils} from 'react-native-audio'
@@ -318,35 +320,34 @@ class noteToSelf extends Component {
     const playState = this.state.playState  === 'playing' ? 'pause' : 'play'
 
     return (
-     
-     <Container>
-      <Header>
-        <Title>Note To Self</Title>
-      </Header>
-      <Content>
-        <List>
-          <List dataArray={this.state.storedRecordings.reverse()}
+      <StyleProvider style={getTheme(customTheme)}>    
+       <Container>
+        <Header>
+          <Title>Note To Self</Title>
+        </Header>
+        <Content>
+          <List>
+            <List dataArray={this.state.storedRecordings.reverse()}
               renderRow={(item) =>
-                  <ListItem icon>
-                    <Left>
-                      <Icon name="trash" onPress={() => this._deleteRecording(item.UUID) } />
-                      <Icon name={playState}  onPress={() => this._play(item.filePath) } />
-                    </Left>
-                    <Body>
-                      <Text>{item.title}</Text>
-                    </Body>
-                    <Right>
-                      <Icon name="share" onPress={() => this._upload(item) } />
-                    </Right>
-                  </ListItem>
+                <ListItem icon>
+                  <Left>
+                    <Icon name="trash" onPress={() => this._deleteRecording(item.UUID) } />
+                    <Icon name={playState}  onPress={() => this._play(item.filePath) } />
+                  </Left>
+                  <Body>
+                    <Text>{item.title}</Text>
+                  </Body>
+                  <Right>
+                    <Icon name="share" onPress={() => this._upload(item) } />
+                  </Right>
+                </ListItem>
               }>
-          </List>
-        </List>
-      </Content>
-        
-            {this._renderRecorderButton()}
-        
-    </Container>
+              </List>
+            </List>
+          </Content>
+          {this._renderRecorderButton()}
+        </Container>
+      </StyleProvider> 
     )
   }
 
