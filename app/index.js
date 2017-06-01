@@ -11,14 +11,16 @@ import {
   Platform,
   PermissionsAndroid
 } from 'react-native'
-import {  Container, Content, Header, Footer, Title, List, ListItem, Text,
-          Icon, Badge, Left, Body, Right, Switch  } from 'native-base'
+import {  StyleProvider, Container, Content, Header, Footer, Title, List, 
+          ListItem, Text, Icon, Badge, Left, Body, Right, Switch  } from 'native-base'
+import getTheme from '../native-base-theme/components';  
+import customTheme from '../styles/customTheme';
 import lodash from 'lodash'
 import Sound from 'react-native-sound'
 import {AudioRecorder, AudioUtils} from 'react-native-audio'
 import uuid from 'react-native-uuid'
 import Push2Talk from '../components/push2Talk'
-import { enseFileUpload, tagEnseWithHandle } from '../components/enseFileUpload'
+import { enseFileUpload } from './../libs/enseFileUpload'
 
 
 var STORAGE_KEY = 'storedRecordings'
@@ -36,7 +38,7 @@ class noteToSelf extends Component {
     };
 
     async _loadInitialState() {
-
+      enseFileUpload.init()
       try {
         var value = await AsyncStorage.getItem(STORAGE_KEY);
 
@@ -53,7 +55,7 @@ class noteToSelf extends Component {
 
     prepareRecordingPath(){
 
-      const audioPath = AudioUtils.DocumentDirectoryPath + '/' + uuid.v1() + 'test.aac'
+      const audioPath = AudioUtils.DocumentDirectoryPath + '/' + uuid.v1() + '.aac'
 
       AudioRecorder.prepareRecordingAtPath(audioPath, {
         SampleRate: 22050,
@@ -133,7 +135,6 @@ class noteToSelf extends Component {
 
     async _stop() {
 
-      console.log('stop')
       if (!this.state.recording) {
         console.warn('Can\'t stop, not recording!');
         return;
@@ -191,8 +192,6 @@ class noteToSelf extends Component {
 
     async _record() {
 
-      console.log("start")
-
       if (this.state.recording) {
         console.warn('Already recording!');
         return;
@@ -215,6 +214,12 @@ class noteToSelf extends Component {
         console.error(error);
       }
     }
+
+
+    async _upload() {
+      console.log("upload")
+    }
+
 
     _finishRecording(didSucceed, filePath) {
       this.setState({ finished: didSucceed });
@@ -255,13 +260,15 @@ class noteToSelf extends Component {
 
     _saveRecording(filePath) {
       const UUID = uuid.v1()
-      const recordingTitle = `#${this.randomStr(4)} ${this.generateColorCode()} `
+      const title = `#${this.randomStr(4)} ${this.generateColorCode()} `
+      const filename = UUID + '.aac'
 
-      var newRecording = [
-        recordingTitle: recordingTitle,
+      var newRecording = {
+        title: title,
+        filename: filename,
         UUID: UUID,
         filePath: filePath
-      ];
+      };
 
       var newRecordingArray = this.state.storedRecordings.slice()
       newRecordingArray.push(newRecording)
@@ -269,8 +276,11 @@ class noteToSelf extends Component {
     }
     
     _deleteRecording(UUID) {
-      const data = this.state.storedRecordings
-  
+      const array = this.state.storedRecordings.slice()
+      //JK: need help from rob
+      console.log(this.state.storedRecordings)
+      var newRecordingArray = _.reject(array, sub => sub[1] === UUID)
+      this._addToAsyncStorage(newRecordingArray)
     }
 
     _renderRecorderButton() {
@@ -310,30 +320,34 @@ class noteToSelf extends Component {
     const playState = this.state.playState  === 'playing' ? 'pause' : 'play'
 
     return (
-     
-     <Container>
-      <Header>
-        <Title>Note To Self</Title>
-      </Header>
-      <Content>
-        <List>
-          <List dataArray={this.state.storedRecordings.reverse()}
+      <StyleProvider style={getTheme(customTheme)}>    
+       <Container>
+        <Header>
+          <Title>Note To Self</Title>
+        </Header>
+        <Content>
+          <List>
+            <List dataArray={this.state.storedRecordings.reverse()}
               renderRow={(item) =>
-                  <ListItem>
-                    <Text>{item[0]}</Text>
-                    <Right>
-                      <Icon name="trash" onPress={() => this._deleteRecording(item[1]) } />
-                      <Icon name={playState}  onPress={() => this._play(item[2]) } />
-                    </Right>
-                  </ListItem>
+                <ListItem icon>
+                  <Left>
+                    <Icon name="trash" onPress={() => this._deleteRecording(item.UUID) } />
+                    <Icon name={playState}  onPress={() => this._play(item.filePath) } />
+                  </Left>
+                  <Body>
+                    <Text>{item.title}</Text>
+                  </Body>
+                  <Right>
+                    <Icon name="share" onPress={() => this._upload(item) } />
+                  </Right>
+                </ListItem>
               }>
-          </List>
-        </List>
-      </Content>
-        
-            {this._renderRecorderButton()}
-        
-    </Container>
+              </List>
+            </List>
+          </Content>
+          {this._renderRecorderButton()}
+        </Container>
+      </StyleProvider> 
     )
   }
 
