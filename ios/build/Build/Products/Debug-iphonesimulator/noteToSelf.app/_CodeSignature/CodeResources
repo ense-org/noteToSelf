@@ -283,7 +283,7 @@
 		</data>
 		<key>Octicons.ttf</key>
 		<data>
-		XF4wYBlFFw56fAqk3ggmUtwnNQI=
+		nDHzgr8cV2wncaeFbvmESHJDPUg=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -299,15 +299,15 @@
 		</data>
 		<key>PlugIns/noteToSelfTests.xctest/Info.plist</key>
 		<data>
-		A+6gXM4VmivU4EsIup2RaYsFL0I=
+		wjP2IlcAR0hqOhDQ6mauuZSG+wY=
 		</data>
 		<key>PlugIns/noteToSelfTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		Kf0ngu7JlvCyOZg4D3wzQgGXDJo=
+		7TG8GFvSt3LjZZA9g6Nmbky+074=
 		</data>
 		<key>PlugIns/noteToSelfTests.xctest/noteToSelfTests</key>
 		<data>
-		TSx/ZIgj5VtzzCrb7mJe3vG1OBs=
+		m1pDWEouMcCM/yzfiq4gZo0Xhrg=
 		</data>
 		<key>Roboto.ttf</key>
 		<data>
@@ -1139,11 +1139,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XF4wYBlFFw56fAqk3ggmUtwnNQI=
+			nDHzgr8cV2wncaeFbvmESHJDPUg=
 			</data>
 			<key>hash2</key>
 			<data>
-			sw1aNDI0CqTWoFwAl/BoysSnzVrJqfoRSzi3y6/KJCM=
+			zLOa3HG6r1FR8G3HAL3RBNLhvSx9Ru2iAlXyNPR6vuo=
 			</data>
 		</dict>
 		<key>PlugIns/noteToSelfTests.xctest.dSYM/Contents/Info.plist</key>
@@ -1172,33 +1172,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			A+6gXM4VmivU4EsIup2RaYsFL0I=
+			wjP2IlcAR0hqOhDQ6mauuZSG+wY=
 			</data>
 			<key>hash2</key>
 			<data>
-			wj84SoIxlcysHC1389geADxrL6sgrlIoQOvXKcdzv3A=
+			R6JLZS0TH5jnsS4nmDayDCcy7kerJkt8GH/807zUJf0=
 			</data>
 		</dict>
 		<key>PlugIns/noteToSelfTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kf0ngu7JlvCyOZg4D3wzQgGXDJo=
+			7TG8GFvSt3LjZZA9g6Nmbky+074=
 			</data>
 			<key>hash2</key>
 			<data>
-			4c+VEfCUPsgHgobh6kWrwgW5Yj6nCH1C7QzwxHVQ+Zw=
+			4wOCxmQGOeDZmDLqHlDGUHp/tkAycHLGSIFtfpIJ55g=
 			</data>
 		</dict>
 		<key>PlugIns/noteToSelfTests.xctest/noteToSelfTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TSx/ZIgj5VtzzCrb7mJe3vG1OBs=
+			m1pDWEouMcCM/yzfiq4gZo0Xhrg=
 			</data>
 			<key>hash2</key>
 			<data>
-			uL0WOOHStDHLh2YtMo3w5d1BOkLorzZw54Fo9hn4z5U=
+			FOrQmf+ZWYHC1FldfG7/8mD82xVGlRXXJOtYZXPSSvs=
 			</data>
 		</dict>
 		<key>Roboto.ttf</key>

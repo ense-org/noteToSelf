@@ -212,9 +212,9 @@ class noteToSelf extends Component {
   }
 
 
-  async _upload() {
+  async _upload(fileBlob) {
     console.log("upload")
-    uploadNewEnseWithBlob()
+    uploadNewEnseWithBlob(fileBlob)
   }
 
 
@@ -331,7 +331,7 @@ class noteToSelf extends Component {
                     <Text>{item.title}</Text>
                   </Body>
                   <Right>
-                    <Icon name="share" onPress={() => this._upload(item) } />
+                    <Icon name="share" onPress={() => this._upload(item.filePath) } />
                   </Right>
                 </ListItem>
               }>

@@ -37,11 +37,10 @@ function serializeJSON(data) {
   }).join('&');
 }
 
-async function uploadNewEnseWithBlob() {
+async function uploadNewEnseWithBlob(fileBlob) {
   const handle =  generateColorCode()
   const value = await AsyncStorage.getItem(STORAGE_KEY);
   const deviceKey = JSON.parse(value)
-  let formdata = new FormData()
   let formArray = {
     mimeType: "audio/aac",
     deviceKey: deviceKey,
@@ -60,12 +59,48 @@ async function uploadNewEnseWithBlob() {
   .then(response => response.json())
     .then(json => {
       if(json.tag == 'Nothing') {
-        console.log("we have an error talk to Clyde")
+        console.log("ERROR: Talk to Clyde")
       } else {
-        console.log("we have a tag")
+        console.log("SUCCESS")
+        const mimetype = formArray.mimeType
+        const uploadKey = json.contents.uploadKey
+        const policyBundle = json.contents.policyBundle
+        const callback = uploadedFileUrl()
+        //uploadFile(fileBlob, mimetype, uploadKey, policyBundle, callback, progress)
+        uploadFile(fileBlob, mimetype, uploadKey, policyBundle, callback)
       }
     }
   )
-
 }
+
+async function uploadedFileUrl() {
+  console.log("callback")
+}
+
+//async function uploadFile(fileBlob, mimetype, uploadKey, policyBundle, callback, progress) {
+function uploadFile(fileBlob, mimetype, uploadKey, policyBundle, callback) {
+  let formArray = {
+    key: uploadKey,
+    acl: "public-read",
+    ContentType: mimetype,
+    AWSAccessKeyId: 'AKIAJGPMBNUIOKY2WMHA',
+    Policy: policyBundle.policyDoc,
+    Signature: policyBundle.signature,
+    file: fileBlob
+  }
+//JK: switch to upload file in react
+  const params = { 
+    method: 'POST',
+    headers: {
+            'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+          },
+    body: formArray
+  }
+  console.log(params)
+  fetch('https://s3.amazonaws.com/media.ense.nyc/', params)
+  .then(response => console.log(response))
+}
+
+
+
 export { enseFileUpload, uploadNewEnseWithBlob }
