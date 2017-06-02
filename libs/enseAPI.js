@@ -105,23 +105,23 @@ const EnseAPI = {
     )
   },
 
-	searchTopicsWithTerm: function(term) {
+  searchTopicsWithTerm: function(term) {
     return makeRequest(
       `/topics/utils/search/${term}%`,
       {
         method: 'GET'
       }
     )
-	},
+  },
 
-	searchAccountsWithTerm: function(term) {
+  searchAccountsWithTerm: function(term) {
     return makeRequest(
       `/accounts/utils/search/${term}%`,
       {
         method: 'GET'
       }
     )
-	},
+  },
 
   getEnseReuploadBundle: function(handle, key, version, mimeType) {
     return makeRequest(
@@ -169,7 +169,7 @@ const EnseAPI = {
     )
   },
 
-	registerPushToken: function(deviceSecretKey, info) {
+  registerPushToken: function(deviceSecretKey, info) {
     return makeRequest(
       `/device/pushtoken`,
       {
@@ -180,7 +180,7 @@ const EnseAPI = {
         deviceSecretKey
       }
     )
-	},
+  },
 
   registerDevice: function() {
     return makeRequest(
@@ -552,4 +552,3 @@ const EnseAPI = {
 }
 
 module.exports = { EnseAPI };
-

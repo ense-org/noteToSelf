@@ -20,7 +20,7 @@ import Sound from 'react-native-sound'
 import {AudioRecorder, AudioUtils} from 'react-native-audio'
 import uuid from 'react-native-uuid'
 import Push2Talk from '../components/push2Talk'
-import { enseFileUpload } from './../libs/enseFileUpload'
+import { enseFileUpload,uploadNewEnseWithBlob } from './../libs/enseFileUpload'
 
 
 var STORAGE_KEY = 'storedRecordings'
@@ -90,10 +90,6 @@ class noteToSelf extends Component {
         }
       };
     });
-  }
-
-  componentDidUpdate() {
-    //console.log(this.state.storedRecordings)
   }
 
   _checkPermission() {
@@ -218,6 +214,7 @@ class noteToSelf extends Component {
 
   async _upload() {
     console.log("upload")
+    uploadNewEnseWithBlob()
   }
 
 
